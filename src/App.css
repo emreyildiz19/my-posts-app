@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4285f4;
+  text-align: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-item {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.post-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.post-body {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.post-actions button {
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.post-form {
+  margin-top: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.post-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+  margin: auto;
+  line-height: mid
+}
+
+.post-form input,
+.post-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  margin: auto;
+  line-height: normal;
+}
+.post-form button {
+  background-color: white;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: auto;
+}
+
+.update-form {
+  margin-top: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.update-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4285f4;
+}
+
+.update-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.update-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.update-form input,
+.update-form textarea {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.update-form button {
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  align-self: center;
+}
